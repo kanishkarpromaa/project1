@@ -6,12 +6,16 @@
 </head>
 
 <body id="one">
-    <button onclick="change()">dark</button>
+    <button onclick="change()">dark</button> <button onclick="whitec()">light</button>
     <script>
         var b  =document.getElementById("one")
         function change(){
             b.style.backgroundColor="black"
             b.style.color="white"
+        }
+        function whitec(){
+            b.style.backgroundColor="white"
+            b.style.color="black"
         }
     </script>
     <center>
